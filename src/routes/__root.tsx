@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Crossi AI" },
+      { name: "description", content: "A simple web application that displays a \"Hello World\" message." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Crossi AI" },
+      { property: "og:description", content: "A simple web application that displays a \"Hello World\" message." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Crossi AI" },
+      { name: "twitter:description", content: "A simple web application that displays a \"Hello World\" message." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/07359b1f-b578-4075-8c8f-ca51291da4f1/id-preview-7d2546ee--944cd37c-68cc-4aac-bec2-67b2301e973d.lovable.app-1778677804572.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/07359b1f-b578-4075-8c8f-ca51291da4f1/id-preview-7d2546ee--944cd37c-68cc-4aac-bec2-67b2301e973d.lovable.app-1778677804572.png" },
     ],
     links: [
       {
